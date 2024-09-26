@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v1.1.0-beta.1 (2024-09-26)
+
+### Feature
+
+* feat: adding automation for terraform ([`0e23000`](https://github.com/credible-techlabs/cloud-infra/commit/0e2300083c9af64f47cdb70f8c962f219cc3c1ae))
+
 ## v0.1.1 (2024-09-26)
 
 ### Fix

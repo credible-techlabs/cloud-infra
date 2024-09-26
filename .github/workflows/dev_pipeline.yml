@@ -1,0 +1,21 @@
+# .github/workflows/dev_pipeline.yml
+name: Dev Deployment
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/common_pipeline.yml
+    with:
+      env_name: dev
+      working_dir: cloud_infra/terraform/env/dev
+      terraform_state_key: "terraform_dev.tfstate"
+    secrets: inherit

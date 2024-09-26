@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## v0.2.0 (2024-09-26)
+
+### Feature
+
+* feat: adding automation for terraform ([`0e23000`](https://github.com/credible-techlabs/cloud-infra/commit/0e2300083c9af64f47cdb70f8c962f219cc3c1ae))
+
+### Unknown
+
+* Merge pull request #3 from credible-techlabs/feat/automation_of_terraform
+
+feat: adding automation for terraform ([`fe3d934`](https://github.com/credible-techlabs/cloud-infra/commit/fe3d9340864d466fc71840ab5fdfe2675fa1e05e))
+
 ## v0.1.1 (2024-09-26)
 
 ### Fix
